@@ -1,7 +1,5 @@
-#include <0-positive_or_negative.c>
-#include <0-positive_or_negative.c>
-#include <stdlib.h> 
- #include <time.h> 
+#include <stdlib.h>
+#include <time.h> 
  /* more headers goes there */ 
   
  /* betty style doc for function main goes there */ 
@@ -14,9 +12,9 @@
          /* your code goes there */
 	if (n > 0)
 		printf ("%d is positive",n)
-	if (n ==0)
+	else if (n ==0)
 		printf ("%d is zero",n)	
-	if (n < 0)
+	else if (n < 0)
 		printf ("%d is negative",n)
          return (0); 
  }
